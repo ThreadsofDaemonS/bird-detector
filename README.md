@@ -34,6 +34,8 @@ venv\Scripts\activate          # Windows
 pip install -r requirements.txt
 ```
 
+> **Windows PowerShell:** якщо `venv\Scripts\activate` видає помилку про заборону виконання скриптів, виконайте `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` (діє лише в поточному вікні) або викликайте Python напряму: `venv\Scripts\python.exe train.py`.
+
 ## Швидка перевірка (готові ваги)
 
 Ваги `weights/best.pt` вже є в репозиторії, тож навчати нічого не треба:
