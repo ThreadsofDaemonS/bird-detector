@@ -1,0 +1,9 @@
+﻿venv/
+.venv/
+__pycache__/
+*.pyc
+runs/
+datasets/
+*.cache
+.idea/
+.vscode/
